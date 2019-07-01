@@ -26,9 +26,6 @@ def min_price(origin, destination):
     return best_prices
 
 
-print(iata_code(origin))
-print(iata_code(destination))
-
 actual_min_price = min_price(origin, destination)
 
 print('Город вылета:', origin, '\n'
